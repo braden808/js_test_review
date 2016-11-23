@@ -41,5 +41,12 @@ truelove(knight,maiden)
 
 function epicBattle(wizard,enemy,power){
 	if (power < 15 || power = 15)
-		console.log("our" )
+		console.log("our " + wizard + " has fallen");
+	} else if (power > 16 || power = 40) {
+		console.log("Our " + wizard + " has almost slain the " + enemy);
+	} else {
+		console.log("Our " + wizard + "has slain the " + enemy);
+	}
 }
+
+epicBattle(wizard,monster,power)
